@@ -1,18 +1,3 @@
-/*************************************************************
-
-  You’ll need:
-   - Blynk IoT app (download from App Store or Google Play)
-   - ESP32 board
-   - Decide how to connect to Blynk
-     (USB, Ethernet, Wi-Fi, Bluetooth, ...)
-
-  There is a bunch of great example sketches included to show you how to get
-  started. Think of them as LEGO bricks  and combine them as you wish.
-  For example, take the Ethernet Shield sketch and combine it with the
-  Servo example, or choose a USB sketch and add a code from SendData
-  example.
- *************************************************************/
-
 /* Fill-in information from Blynk Device Info here */
 /*************************************************************
 
@@ -30,9 +15,9 @@
  *************************************************************/
 
 /* Fill-in information from Blynk Device Info here */
-#define BLYNK_TEMPLATE_ID "TMPLGJA9F1s3"
-#define BLYNK_TEMPLATE_NAME "IoT Based Rain monitoring systm"
-#define BLYNK_AUTH_TOKEN "lcEfKwsoa_NLCfNmW3KWgomj4AL2f77p"
+#define BLYNK_TEMPLATE_ID "TMPL3i67qL5je"
+#define BLYNK_TEMPLATE_NAME "IOT heart rate monitor"
+#define BLYNK_AUTH_TOKEN "1VXBaMX8LBlwfzBP7QRgvFf_0-TQary_"
 
 /* Comment this out to disable prints and save space */
 #define BLYNK_PRINT Serial
@@ -44,15 +29,15 @@
 
 // Define the pulse sensor settings
 const int pulsePin = 32; // the pulse sensor pin
-const int ledPin = 33; // the LED pin
-int pulseValue; // the pulse sensor value
-int bpm; // the heart rate in beats per minute
+const int ledPin = 33; // LED pin
+int pulseValue; // pulse sensor value
+int bpm; // heart rate in beats per minute
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
 char auth[] = BLYNK_AUTH_TOKEN;
-char ssid[] = "M&M";
-char pass[] = "2291yogi";
+char ssid[] = "xyz";// enter you wifi ssid here
+char pass[] = "abc";//enter your wifi password here
 BlynkTimer timer;
 
 void setup()
