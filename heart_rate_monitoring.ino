@@ -1,4 +1,18 @@
+/* Fill-in information from Blynk Device Info here */
+/*************************************************************
 
+  You’ll need:
+   - Blynk IoT app (download from App Store or Google Play)
+   - ESP32 board
+   - Decide how to connect to Blynk
+     (USB, Ethernet, Wi-Fi, Bluetooth, ...)
+
+  There is a bunch of great example sketches included to show you how to get
+  started. Think of them as LEGO bricks  and combine them as you wish.
+  For example, take the Ethernet Shield sketch and combine it with the
+  Servo example, or choose a USB sketch and add a code from SendData
+  example.
+ *************************************************************/
 
 /* Fill-in information from Blynk Device Info here */
 #define BLYNK_TEMPLATE_ID "TMPL3i67qL5je"
